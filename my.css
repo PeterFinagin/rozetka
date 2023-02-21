@@ -1,38 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    /*border: 0;*/
-}
-*,*:before,*:after{
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-:focus,:active{outline: none;}
-a:focus,a:active{outline:none;}
-nav,footer,header,aside{display: block;}
-html,body{
-    height: 100%;
-    width: 100%;
-    font-size: 100%;
-    line-height: 1;
-    font-size: 14;
-    -ms-text-size-adjust: 100%;
-    -moz-tab-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-input,buton,textarea{font-family:inherit;}
-input::-ms-clear{display:none;}
-button{cursor:pointer;}
-button::-moz-focus-inner{padding: 0;border: 0;}
-a,a:visited{text-decoration:none;}
-a:hover{text-decoration:none;}
-ul li{list-style:none;}
-img{vertical-align:top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400;}
-
-
-
 @font-face {
     font-family: 'Roboto-Light';
     src: url('/fonts/Roboto-Light.eot');
@@ -49,92 +14,56 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400;}
     font-style: normal;
 }
 
-.wrapper {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.apple_watch {
-    margin-bottom: 3.25em;
-}
-
-.block_1 {
+body{
+    margin: 0;
     text-align: center;
-    margin-top: 7em;
-    border: solid 2px;
 }
 
-.big_header_1 {
-    margin: 0 20% 0 20%;
-    font-size: 3.8em;
-    /*max-width: 40em;*/
-    text-align: center;
-    font-family: 'Roboto-Medium';
-    border: solid 2px;
+.m-0{
+    margin: 0!important;
 }
 
-.block_for_watch_1 {
-    margin: 0 12% 0 12%;
-    border: solid 2px;
+.m-40{
+    margin: 40px;
 }
 
-.watch_1 {
-    width: 100%;
-    border: solid 2px;
+.block{
+
 }
 
-.block_2 {
-    border: solid 2px;
-    margin-bottom: 12em;
+.logo{
+    width: 125px;
+    height: auto;
 }
 
-.big_header_2 {
-    margin: 0 7% 0 7%;
-    font-size: 3.8em;
-    max-width: 65em;
-    text-align: center;
-    font-family: 'Roboto-Medium';
-    border: solid 2px;
-}
-
-.choowack {
-    margin-top: 9.3em;
-    width: 100%;
-}
-
-.block_3 {
-    text-align: center;
-    border: solid 2px;
-    margin-bottom: 10em;
-}
-
-.big_header_3 {
-    font-size: 3.8em;
+.title{
+    margin: 0 20px;
+    font-size: 25px;
     font-family: 'Roboto-Medium';
 }
 
-.block_5 {
-    max-width: 800px;
-}
-
-.big_header_5 {
-    font-size: 3.8em;
-    font-family: 'Roboto-Medium';
-}
-
-/*.flex_box {*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*}*/
-
-.text {
-    width: 50%;
+.text{
+    text-align: left;
+    font-size: 12px;
     font-family: 'Roboto-Light';
-    font-size: 20px;
 }
 
-.line {
-    max-width: 300px;
-    padding: 20px;
+.img{
+    height: auto;
+    width: 100vw;
+}
+
+.characteristics{
+    display: flex;
+}
+
+.column{
+    padding: 15px;
+    width: 50%;
+}
+
+.line{
+    margin: 20px 0;
+    text-align: start;
+    width: 50px;
 }
