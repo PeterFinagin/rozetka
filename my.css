@@ -34,6 +34,7 @@ body{
 .logo{
     width: 125px;
     height: auto;
+    margin: 40px 0 20px 0;
 }
 
 .title{
@@ -48,23 +49,13 @@ body{
     font-family: 'Roboto-Light';
 }
 
+.choowack {
+    margin: 40px 0;
+}
+
 .img{
     height: auto;
     width: 100vw;
-}
-
-.block_4 {
-    width: 100%;
-    height: 400px;
-}
-
-.flex_box {
-    display: flex;
-}
-
-.column{
-    /*padding: 15px;*/
-    width: 50%;
 }
 
 .line{
@@ -72,3 +63,125 @@ body{
     text-align: start;
     width: 50px;
 }
+
+
+.flex_box {
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+}
+
+.flex_box_text {
+    display: flex;
+    width: 80vw;
+    height: 100vw;
+    margin: 30px -20px -20px 0;
+}
+
+.column{
+    width: 50%;
+}
+
+.column_text {
+    width: 50%;
+    padding: 0 20px 0 40px;
+}
+
+.bed {
+    background-color: #f7f7f7;
+    text-align: center;
+    height: 35%;
+    margin-right: 1em;
+    padding-top: 25%;
+    padding-bottom: 5%;
+}
+
+.instead_icon {
+    width: 60px;
+    height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15%;
+    border: 5px #9290ff solid;
+    border-radius: 50%;
+    position: relative;
+}
+
+.bed_icon{
+    max-width: 80%;
+    margin-left: -40%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.text_in_block {
+    font-family: 'Roboto-Medium';
+    font-size: 14px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sos_block {
+    background-color: #f7f7f7;
+    text-align: center;
+    margin: 1em 1em 0 0;
+    height: 35%;
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+.icon_sos {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10%;
+    border: 5px red solid;
+    border-radius: 50%;
+    color: red;
+    font-size: 28px;
+    font-family: 'Roboto-Medium';
+    position: relative;
+}
+
+.sos {
+    margin: 0 0 0 3px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.text_box {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-family: 'Roboto-Medium';
+    font-size: 16px;
+    width: 50%;
+}
+.zadnya_panele {
+    height: 75%;
+    background-image: url("images/Watch_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.na_20 {
+    height: 20%;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-top: 1em;
+    padding-top: 10%;
+}
+
+.title_20 {
+    font-family: 'Roboto-Medium';
+    font-size: 40px;
+    color: green;
+}
+
