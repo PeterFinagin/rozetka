@@ -45,7 +45,7 @@ body{
     font-family: 'Roboto-Light';
 }
 
-.choowack {
+.guy {
     margin: 40px 0;
 }
 
@@ -65,6 +65,7 @@ body{
     width: 80vw;
     margin: 30px -20px -20px 0;
 }
+
 
 .flex_box {
     display: flex;
@@ -112,7 +113,7 @@ body{
 
 .text_in_block {
     font-family: 'Roboto-Medium';
-    font-size: 14px;
+    font-size: 12px;
     width: 50%;
     margin-right: auto;
     margin-left: auto;
@@ -155,10 +156,10 @@ body{
     top: 25px;
     left: 25px;
     font-family: 'Roboto-Medium';
-    font-size: 16px;
+    font-size: 12px;
     width: 50%;
 }
-.zadnya_panele {
+.back_panel {
     height: 75%;
     background-image: url("images/Watch_3.png");
     background-repeat: no-repeat;
@@ -188,10 +189,8 @@ body{
 }
 
 .what_in_kit {
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Roboto-Medium';
-    position: relative;
-    top: 50px;
 }
 
 .watch_4 {
@@ -209,6 +208,11 @@ body{
     background-image: url("images/Watch_5.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.text_position {
+    position: relative;
+    top: 10%;
 }
 
 .usb {
