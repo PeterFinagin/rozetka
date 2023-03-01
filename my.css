@@ -70,24 +70,27 @@ body{
     width: 50%;
 }
 
+@media  screen and (min-width: 500px) {
+    .flex_box_text {
+        display: flex;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .column_text {
+        width: 40%;
+        padding: 0 20px 0 40px;
+    }
+}
 
-.flex_box_text {
-    display: flex;
-    width: 80vw;
-    margin: 30px -20px -20px 0;
-}
-.column_text {
-    width: 50%;
-    padding: 0 20px 0 40px;
-}
-@media  screen and (max-width: 400px) {
+
     .flex_box_text {
         width: 100%;
     }
     .column_text {
         width: 90%;
+        padding: 0 20px 0 40px;
     }
-}
+
 
 
 .bed {
