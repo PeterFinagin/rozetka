@@ -28,36 +28,23 @@ body{
 }
 
 .logo{
-    width: 125px;
+    width: 25vw;
     height: auto;
-    margin: 40px 0 20px 0;
+    margin: 10vw 0 5vw 0;
 }
 
 .title{
-    margin: 0 20px;
-    font-size: 25px;
+    margin: 0 10vw;
+    font-size: 5vw;
     font-family: 'Roboto-Medium';
-}
-
-.text{
-    text-align: left;
-    font-size: 12px;
-    font-family: 'Roboto-Light';
-}
-
-.guy {
-    margin: 40px 0;
 }
 
 .img{
     height: auto;
     width: 100%;
 }
-
-.line{
-    margin: 20px 0;
-    text-align: start;
-    width: 50px;
+.guy {
+    margin: 10vw 0;
 }
 
 .flex_box {
@@ -70,62 +57,90 @@ body{
     width: 50%;
 }
 
-@media  screen and (min-width: 500px) {
-    .flex_box_text {
-        display: flex;
-        width: 100%;
-        margin-top: 40px;
-    }
-    .column_text {
-        width: 40%;
-        padding: 0 20px 0 40px;
-    }
-}
-
-
-    .flex_box_text {
-        width: 100%;
-    }
-    .column_text {
-        width: 90%;
-        padding: 0 20px 0 40px;
-    }
-
-
-
 .bed {
     background-color: #f7f7f7;
     text-align: center;
-    height: 35%;
-    margin-right: 0.5em;
-    padding-top: 15%;
-    padding-bottom: 15%;
-}
-
-.instead_icon {
-    width: 60px;
-    height: 60px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 15%;
-    border: 5px #9290ff solid;
-    border-radius: 50%;
+    height: 48%;
+    margin-right: 4%;
     position: relative;
 }
 
-.bed_icon{
-    max-width: 80%;
-    margin-left: -40%;
+.wrapper {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.instead_icon_bed {
+    width: 14vw;
+    height: 14vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10%;
+    border: 1.3vw #9290ff solid;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+}
+
+.bed_icon {
+    display: block;
+    margin-left: 10%;
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+    width: 80%;
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
-.text_in_block {
+.text{
+    text-align: left;
+    font-size: 4vw;
+    font-family: 'Roboto-Light';
+}
+
+@media screen and (min-width: 400px) {
+    .flex_box_text {
+        display: flex;
+        margin-top: 10vw;
+    }
+    .text{
+        text-align: left;
+        font-size: 3vw;
+        font-family: 'Roboto-Light';
+    }
+}
+
+.flex_box_text {
+    width: 100%;
+    margin-top: 10vw;
+}
+
+.column_text {
+    margin-left: 4vw;
+}
+
+.line{
+    margin: 20px 0;
+    text-align: start;
+    width: 15vw;
+}
+
+.text_in_block_1 {
     font-family: 'Roboto-Medium';
-    font-size: 12px;
+    font-size: 3vw;
     width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text_in_block_2 {
+    font-family: 'Roboto-Medium';
+    font-size: 3vw;
+    width: 70%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -133,62 +148,60 @@ body{
 .sos_block {
     background-color: #f7f7f7;
     text-align: center;
-    margin: 0.5em 0.5em 0 0;
-    height: 35%;
-    padding-top: 5%;
-    padding-bottom: 25%;
+    margin: 4% 4% 0 0;
+    height: 48%;
+    position: relative;
 }
 
 .icon_sos {
     text-align: center;
-    width: 60px;
-    height: 60px;
+    width: 14vw;
+    height: 14vw;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 10%;
-    border: 5px red solid;
+    border: 1.3vw red solid;
     border-radius: 50%;
     color: red;
-    font-size: 28px;
+    font-size: 7vw;
     font-family: 'Roboto-Medium';
     position: relative;
 }
 
 .sos {
-    margin: 0 0 0 3px;
     position: absolute;
-    top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    width: 100%;
 }
 
-.text_box {
+.text_in_block_3 {
     position: relative;
-    top: 25px;
-    left: 25px;
+    top: 7vw;
+    left: 7vw;
     font-family: 'Roboto-Medium';
-    font-size: 12px;
+    font-size: 3vw;
     width: 50%;
 }
+
 .back_panel {
-    height: 75%;
+    height: 73%;
     background-image: url("images/Watch_3.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.na_20 {
-    height: 20%;
+.on_20 {
+    height: 23%;
     background-color: #f7f7f7;
     text-align: center;
-    margin-top: 0.5em;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    margin-top: 4%;
+    position: relative;
 }
 
 .title_20 {
     font-family: 'Roboto-Medium';
-    font-size: 40px;
+    font-size: 9vw;
     color: green;
 }
 
