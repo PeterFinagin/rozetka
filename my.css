@@ -47,14 +47,23 @@ body{
     margin: 10vw 0;
 }
 
+@media screen and (min-width: 400px) {
+    .flex_box {
+        display: flex;
+        width: 100vw;
+        height: 100vw;
+    }
+    .column{
+        width: 50%;
+    }
+}
+
 .flex_box {
-    display: flex;
     width: 100vw;
     height: 100vw;
 }
-
-.column{
-    width: 50%;
+.column {
+    width: 100%;
 }
 
 .bed {
@@ -209,7 +218,7 @@ body{
     background-color: #f7f7f7;
     text-align: center;
     height: 100%;
-    margin-right: 0.5em;
+    margin-right: 4%;
 }
 
 .what_in_kit {
@@ -221,14 +230,8 @@ body{
     width: 100%;
 }
 
-.site_bottom {
-    height: 50px;
-    border: 2px solid;
-    margin-top: 100px;;
-}
-
 .strap {
-    height: 49%;
+    height: 48%;
     background-image: url("images/Watch_5.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -240,16 +243,22 @@ body{
 }
 
 .usb {
-    height: 50%;
+    height: 48%;
     background-image: url("images/Watch_6.png");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 0.5em;
+    margin-top: 4%;
 }
 
 footer {
     text-align: center;
-    font-size: 14px;
+    font-size: 3vw;
     color: darkslategrey;
-    margin-top: 30px;
+    margin-top: 5vw;
+}
+
+.site_bottom {
+    height: 50px;
+    border: 2px solid;
+    margin-top: 100px;;
 }
